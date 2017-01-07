@@ -2,8 +2,21 @@
     "config": {
         "projects": [
             {
-                "name": "raspberry",
-                "url": "http://PolVention/AISGroup/AIS.git"
+                "name": "curl",
+                "url": "https://github.com/curl/curl",
+                "dependencies": [
+                    "autoconf",
+                    "automake",
+                    "libtool",
+                    "m4"
+                ],
+                "files_tree": {
+                },
+                "commands_list": [
+                    "./buildconf",
+                    "./configure",
+                    "make"
+                ]
             }
         ]
     }
