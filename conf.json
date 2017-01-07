@@ -2,8 +2,8 @@
     "config": {
         "projects": [
             {
-                "project_name": "raspberry",
-                "project_url": "http://PolVention/AISGroup/AIS.git"
+                "name": "raspberry",
+                "url": "http://PolVention/AISGroup/AIS.git"
             }
         ]
     }
