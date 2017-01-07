@@ -11,11 +11,15 @@
                     "m4"
                 ],
                 "files_tree": {
-                    "/usr/local/",
-                    "/usr/include/",
-                    "/usr/bin/",
-                    "/usr/lib/",
-                    "/usr/share/doc"
+                    "usr": {
+                        "local",
+                        "include",
+                        "bin",
+                        "lib",
+                        "share": {
+                            "doc"
+                        }
+                    }
                 },
                 "commands_list": [
                     "./buildconf",
