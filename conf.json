@@ -10,19 +10,34 @@
                     "libtool",
                     "m4"
                 ],
-                "files_tree": {
-                    "usr": [
-                        "local",
-                        "include",
-                        "bin",
-                        "lib",
-                        {
-                            "share": [
-                                "doc"
-                            ]
-                        }
-                    ]
-                },
+                "files_tree": [
+                    {
+                        "name": "usr",
+                        "subdirectories" : [
+                            {
+                                "name": "local",
+                                "subdirectories" : []
+                            },{
+                                "name": "include",
+                                "subdirectories" : []
+                            },{
+                                "name": "bin",
+                                "subdirectories" : []
+                            },{
+                                "name": "lib",
+                                "subdirectories" : []
+                            },{
+                                "name": "share",
+                                "subdirectories" : [
+                                    {
+                                        "name": "doc",
+                                        "subdirectories" : []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
                 "commands_list": [
                     "./buildconf",
                     "./configure",
